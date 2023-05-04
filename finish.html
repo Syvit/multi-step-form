@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+        <section class="back-drop">
+            <a class="next btn" href="endmsg.html">FINISH</a>
+            <a class="prev btn" href="choose.html">PREVIOUS</a>
+            <aside class="side-bar">
+                <ul>
+                    <a class="tab one" href="index.html">
+                        <span class="circle number">
+                            <h2>1</h2>
+                        </span>
+                        <li class="step one">STEP 1</li>
+                        <li>YOUR INFO</li>
+                    </a>               
+                    <a class="tab two" href="plan.html">
+                        <span class="circle number">
+                            <h2>2</h2>
+                        </span>
+                        <li class="step two">STEP 2</li>
+                        <li>SELECT PLAN</li>
+                    </a>
+                    <a class="tab three" href="choose.html">
+                        <span class="circle number">
+                            <h2>3</h2>
+                        </span>
+                        <li class="step three">STEP 3</li>
+                        <li>ADD-ONS</li>
+                    </a>
+                    <a class="tab four" href="finish.html">
+                        <span class="circle number">
+                            <h2>4</h2>
+                        </span>
+                        <li class="step four">STEP 4</li>
+                        <li>SUMMARY</li>
+                    </a>
+                </ul>
+            </aside>
+            <section class="page four">
+                <h1>Finishing up</h1>
+                <h2>Make sure everything looks good.</h2>
+                <div class="summary-sum">
+                <select name="package" id="drop-down">
+                    <option value="beginner">Beginner</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="professional">Professional</option>
+                </select>
+                <h2 id="price-label">$9/month</h3>
+                    <br>
+                <h3 class="add-total">Online Services</h3>
+                <h2 class="add-sum-one">$2/month</h2>
+                <h3 class="add-total">Larger Storage</h3>
+                <h2 class="add-sum-two">$2/month</h2>
+                </div>
+                <h3 id="total">Total:</h3>
+                <h3 id="total-sum">$13/month</h3>
+            </section>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
